@@ -1,0 +1,93 @@
+name: radioapp
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_image_slideshow: any
+  cupertino_icons: ^1.0.5
+  flutter_local_notifications: ^12.0.3
+  flutter_svg_provider: ^1.0.3
+  sprintf: ^7.0.0
+  logger: ^1.1.0
+  json_annotation: ^4.7.0
+  circle_list: ^1.0.5
+  flutter_riverpod: ^2.0.2
+
+  # Networking
+  internet_connection_checker: ^1.0.0+1
+  dio: ^4.0.6
+  pretty_dio_logger: ^1.1.1
+  dio_log : ^2.0.3
+
+  # Service Locator
+  get_it: ^7.2.0
+
+  # State Management
+  equatable: ^2.0.5
+  intl: ^0.17.0
+
+  #Env
+  flutter_dotenv: ^5.0.2
+
+  flutter_displaymode: ^0.4.0
+  cached_network_image: ^3.2.2
+  #Responsive
+  responsive_framework: ^0.2.0
+  radio_player: ^1.1.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #Utils
+  change_app_package_name: ^1.1.0
+  json_serializable: ^6.5.4
+  build_runner: ^2.3.2
+  flutter_launcher_icons: ^0.10.0
+  #lints
+  flutter_lints: ^2.0.1
+  lint: ^1.10.0
+
+#Icons
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/launcher/ic_launcher.png"
+  image_path_android: "assets/launcher/ic_launcher.png"
+  adaptive_icon_background: "#014087"
+  adaptive_icon_foreground: "assets/launcher/icon_rcs.png"
+  adaptive_icon_padding: false
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - .env
+
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: fonts/gotham_bold.otf
+    - family: GothamMedium
+      fonts:
+        - asset: fonts/gotham_medium.otf
+    - family: GothamBook
+      fonts:
+        - asset: fonts/gotham_book.otf
+    - family: GothamLight
+      fonts:
+        - asset: fonts/gotham_light.otf

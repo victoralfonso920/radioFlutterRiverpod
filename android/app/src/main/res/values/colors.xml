@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#4e987a</color>
+    <color name="colorPrimary">#4e987a</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="ic_launcher_background">#014087</color>
+    <color name="color_background">#014087</color>
+    <color name="colorPrimaryChat">#5eb592</color>
+    <color name="colorAssentChat">#5eb592</color>
+    <color name="colorPrimaryDarkChat">#4e987a</color>
+    <color name="green_cyan">#00cdbd</color>
+
+</resources>
